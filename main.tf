@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 module "work_queue" {
-  source     = "git@github.com:skamdem/sqs-with-backoff.git"
+  source     = "git@github.com:skamdem/sqs-with-backoff.git?ref=v1.0-lw"
   queue_name = "work-queue"
 }
 
